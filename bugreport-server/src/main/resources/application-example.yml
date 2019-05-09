@@ -1,0 +1,17 @@
+
+server:
+  port: 8001
+
+spring:
+  profiles:
+    active: dev
+  dubbo:
+    application:
+      name: example-web
+
+
+bug-report:
+  enabled: true
+  url: http://127.0.0.1:8001/api/report
+  appId: test
+  token: 123456
